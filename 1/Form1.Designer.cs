@@ -64,7 +64,7 @@ namespace _1
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkBox1);
-            this.Size = new System.Drawing.Size(495, 411);
+            this.Size = new System.Drawing.Size(591, 411);
             this.Text = "Form1";
             this.ResumeLayout(false);
 
