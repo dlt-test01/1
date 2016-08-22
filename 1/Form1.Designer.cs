@@ -30,6 +30,7 @@ namespace _1
         {
             this.checkBox1 = new Gizmox.WebGUI.Forms.CheckBox();
             this.comboBox1 = new Gizmox.WebGUI.Forms.ComboBox();
+            this.checkBox2 = new Gizmox.WebGUI.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -49,8 +50,18 @@ namespace _1
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 1;
             // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(332, 197);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(77, 17);
+            this.checkBox2.TabIndex = 2;
+            this.checkBox2.Text = "checkBox2";
+            // 
             // Form1
             // 
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkBox1);
             this.Size = new System.Drawing.Size(495, 411);
@@ -63,5 +74,6 @@ namespace _1
 
         private Gizmox.WebGUI.Forms.CheckBox checkBox1;
         private Gizmox.WebGUI.Forms.ComboBox comboBox1;
+        private Gizmox.WebGUI.Forms.CheckBox checkBox2;
     }
 }
