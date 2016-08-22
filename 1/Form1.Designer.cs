@@ -28,10 +28,29 @@ namespace _1
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.checkBox1 = new Gizmox.WebGUI.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(133, 108);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(77, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "checkBox1";
+            // 
+            // Form1
+            // 
+            this.Controls.Add(this.checkBox1);
+            this.Size = new System.Drawing.Size(495, 411);
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Gizmox.WebGUI.Forms.CheckBox checkBox1;
     }
 }
